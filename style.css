@@ -1,0 +1,81 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #9ea087, #d4d2d4);
+}
+.box{
+    background: linear-gradient(120deg, #d7d4cf, #789b8e);
+    min-height: 40%;
+    min-width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:15px;
+    font-size: large;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 2px rgb(1, 8, 9);
+}
+.box input{
+    height: 30px;
+    width: 200px;
+    font-size: medium;
+    border-radius: 15px;
+    border:1px solid rgb(4, 236, 178);
+    margin-left:10px;
+    padding:4px;
+}
+.box input:focus{
+    outline: none;
+    box-shadow: 0px 0px 2px rgb(4, 198, 198);
+}
+.box button{
+    height: 30px;
+    width:auto;
+    border-radius: 15px;
+    background-color: rgb(123, 227, 12);
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    box-shadow:0px 0px 2px rgb(4, 198, 198);
+}
+.box button:hover{
+    box-shadow:0px 0px 7px rgb(4, 198, 198);
+}
+.top{
+    font-size: 25px;
+    color:rgb(96, 6, 233);
+}
+.top h3{
+    text-decoration:underline;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    
+}
+.middle p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+}
+
+.buttom p {
+    margin: 5px 0;
+
+}
+#error{
+    color: red;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
